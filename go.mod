@@ -2,7 +2,10 @@ module signTemp
 
 go 1.22
 
-require github.com/umbracle/ethgo v0.1.3
+require (
+	github.com/holiman/uint256 v1.3.1
+	github.com/umbracle/ethgo v0.1.3
+)
 
 require (
 	github.com/btcsuite/btcd v0.22.1 // indirect
